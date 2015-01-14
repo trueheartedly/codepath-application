@@ -2,7 +2,7 @@
 
 This is an iOS demo application for calculating gratuity
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 Completed user stories:
 
