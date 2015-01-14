@@ -8,8 +8,7 @@ Completed user stories:
 
  * [x] Required: User can input bill amount, select tip percentage, and see new total of bill including tip
  * [x] Optional: Displaying the amount 2-6 people need to pay if they are splittiing the bill
- * [x] Optional: 
- 
+
 Notes:
 
  * Edited status bar color
