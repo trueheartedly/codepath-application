@@ -14,6 +14,6 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](anim_swiftclass_application.gif)
+![Video Walkthrough](+tip_walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
