@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tipLabel.text = "$0.00"
-        totalLabel.text = "$0.00"
+        tipLabel.text = ""
+        totalLabel.text = ""
         billField.becomeFirstResponder()
 }
 
@@ -51,9 +51,9 @@ class ViewController: UIViewController {
         var total = billValue + tip
         
         // print
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
         if billValue > 0 {
+            tipLabel.text = String(format: "$%.2f", tip)
+            totalLabel.text = String(format: "$%.2f", total)
             splitLabel2.text = "/ 2    " + String(format: "$%.2f", total/2)
             splitLabel3.text = "/ 3    " + String(format: "$%.2f", total/3)
             splitLabel4.text = "/ 4    " + String(format: "$%.2f", total/4)
